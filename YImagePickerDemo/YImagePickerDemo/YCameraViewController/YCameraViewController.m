@@ -355,7 +355,7 @@
     //    assetOrientation = ALAssetOrientationUp;
     
     // adjust image orientation
-    NSLog(@"orientation: %d",orientationLast);
+    NSLog(@"orientation: %ld",orientationLast);
     orientationAfterProcess = orientationLast;
     switch (orientationLast) {
         case UIInterfaceOrientationPortrait:
@@ -390,6 +390,12 @@
     }
     
     CGImageRelease(imageRef);
+    
+    if(FrontCamera){
+        croppedImage = [UIImage imageWithCGImage:croppedImage.CGImage
+                                                    scale:croppedImage.scale
+                                              orientation:UIImageOrientationUpMirrored];
+    }
     
     [self.captureImage setImage:croppedImage];
     
