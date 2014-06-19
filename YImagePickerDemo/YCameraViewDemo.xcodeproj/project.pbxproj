@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17139603195329FF0064F9B5 /* flash-auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395EC195329FF0064F9B5 /* flash-auto.png */; };
+		17139604195329FF0064F9B5 /* flash-auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395ED195329FF0064F9B5 /* flash-auto@2x.png */; };
+		17139605195329FF0064F9B5 /* flash-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395EE195329FF0064F9B5 /* flash-off.png */; };
+		17139606195329FF0064F9B5 /* flash-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395EF195329FF0064F9B5 /* flash-off@2x.png */; };
+		17139607195329FF0064F9B5 /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F0195329FF0064F9B5 /* flash.png */; };
+		17139608195329FF0064F9B5 /* flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F1195329FF0064F9B5 /* flash@2x.png */; };
+		17139609195329FF0064F9B5 /* focus-crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F2195329FF0064F9B5 /* focus-crosshair.png */; };
+		1713960A195329FF0064F9B5 /* focus-crosshair@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F3195329FF0064F9B5 /* focus-crosshair@2x.png */; };
+		1713960B195329FF0064F9B5 /* front-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F4195329FF0064F9B5 /* front-camera.png */; };
+		1713960C195329FF0064F9B5 /* front-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F5195329FF0064F9B5 /* front-camera@2x.png */; };
+		1713960D195329FF0064F9B5 /* grid-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F6195329FF0064F9B5 /* grid-icon.png */; };
+		1713960E195329FF0064F9B5 /* grid-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F7195329FF0064F9B5 /* grid-icon@2x.png */; };
+		1713960F195329FF0064F9B5 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F8195329FF0064F9B5 /* grid.png */; };
+		17139610195329FF0064F9B5 /* grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395F9195329FF0064F9B5 /* grid@2x.png */; };
+		17139611195329FF0064F9B5 /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395FA195329FF0064F9B5 /* library.png */; };
+		17139612195329FF0064F9B5 /* library@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395FB195329FF0064F9B5 /* library@2x.png */; };
+		17139613195329FF0064F9B5 /* micro_carbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395FC195329FF0064F9B5 /* micro_carbon.png */; };
+		17139614195329FF0064F9B5 /* micro_carbon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395FD195329FF0064F9B5 /* micro_carbon@2x.png */; };
+		17139615195329FF0064F9B5 /* take-snap.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395FE195329FF0064F9B5 /* take-snap.png */; };
+		17139616195329FF0064F9B5 /* take-snap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171395FF195329FF0064F9B5 /* take-snap@2x.png */; };
+		17139617195329FF0064F9B5 /* YCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17139601195329FF0064F9B5 /* YCameraViewController.m */; };
+		17139618195329FF0064F9B5 /* YCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17139602195329FF0064F9B5 /* YCameraViewController.xib */; };
 		8B33A3B318E2D3CE0006B13B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B33A3B218E2D3CE0006B13B /* UIKit.framework */; };
 		8B33A3B518E2D3CE0006B13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B33A3B418E2D3CE0006B13B /* Foundation.framework */; };
 		8B33A3B718E2D3CE0006B13B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B33A3B618E2D3CE0006B13B /* CoreGraphics.framework */; };
@@ -18,34 +40,35 @@
 		8B33A3C918E2D3CE0006B13B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3C818E2D3CE0006B13B /* Default-568h@2x.png */; };
 		8B33A3CC18E2D3CE0006B13B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B33A3CB18E2D3CE0006B13B /* ViewController.m */; };
 		8B33A3CF18E2D3CE0006B13B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3CD18E2D3CE0006B13B /* ViewController.xib */; };
-		8B33A3F018E2D5550006B13B /* YCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B33A3D918E2D5550006B13B /* YCameraViewController.m */; };
-		8B33A3F118E2D5550006B13B /* YCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3DA18E2D5550006B13B /* YCameraViewController.xib */; };
-		8B33A3F218E2D5550006B13B /* flash-auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3DC18E2D5550006B13B /* flash-auto.png */; };
-		8B33A3F318E2D5550006B13B /* flash-auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3DD18E2D5550006B13B /* flash-auto@2x.png */; };
-		8B33A3F418E2D5550006B13B /* flash-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3DE18E2D5550006B13B /* flash-off.png */; };
-		8B33A3F518E2D5550006B13B /* flash-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3DF18E2D5550006B13B /* flash-off@2x.png */; };
-		8B33A3F618E2D5550006B13B /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E018E2D5550006B13B /* flash.png */; };
-		8B33A3F718E2D5550006B13B /* flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E118E2D5550006B13B /* flash@2x.png */; };
-		8B33A3F818E2D5550006B13B /* focus-crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E218E2D5550006B13B /* focus-crosshair.png */; };
-		8B33A3F918E2D5550006B13B /* focus-crosshair@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E318E2D5550006B13B /* focus-crosshair@2x.png */; };
-		8B33A3FA18E2D5550006B13B /* front-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E418E2D5550006B13B /* front-camera.png */; };
-		8B33A3FB18E2D5550006B13B /* front-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E518E2D5550006B13B /* front-camera@2x.png */; };
-		8B33A3FC18E2D5550006B13B /* grid-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E618E2D5550006B13B /* grid-icon.png */; };
-		8B33A3FD18E2D5550006B13B /* grid-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E718E2D5550006B13B /* grid-icon@2x.png */; };
-		8B33A3FE18E2D5550006B13B /* grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E818E2D5550006B13B /* grid@2x.png */; };
-		8B33A3FF18E2D5550006B13B /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3E918E2D5550006B13B /* library.png */; };
-		8B33A40018E2D5550006B13B /* library@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3EA18E2D5550006B13B /* library@2x.png */; };
-		8B33A40118E2D5550006B13B /* micro_carbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3EB18E2D5550006B13B /* micro_carbon.png */; };
-		8B33A40218E2D5550006B13B /* micro_carbon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3EC18E2D5550006B13B /* micro_carbon@2x.png */; };
-		8B33A40318E2D5550006B13B /* take-snap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3ED18E2D5550006B13B /* take-snap.png */; };
-		8B33A40418E2D5550006B13B /* take-snap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A3EE18E2D5550006B13B /* take-snap@2x.png */; };
-		8B33A40618E2D7E50006B13B /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B33A40518E2D7E50006B13B /* grid.png */; };
 		8B480F69192614B0005AA93A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B480F68192614B0005AA93A /* ImageIO.framework */; };
 		8B480F6B192614B9005AA93A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B480F6A192614B9005AA93A /* CoreMotion.framework */; };
 		8B541C1C18E2DD930074AC55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B541C1B18E2DD930074AC55 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171395EC195329FF0064F9B5 /* flash-auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-auto.png"; sourceTree = "<group>"; };
+		171395ED195329FF0064F9B5 /* flash-auto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-auto@2x.png"; sourceTree = "<group>"; };
+		171395EE195329FF0064F9B5 /* flash-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-off.png"; sourceTree = "<group>"; };
+		171395EF195329FF0064F9B5 /* flash-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-off@2x.png"; sourceTree = "<group>"; };
+		171395F0195329FF0064F9B5 /* flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash.png; sourceTree = "<group>"; };
+		171395F1195329FF0064F9B5 /* flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash@2x.png"; sourceTree = "<group>"; };
+		171395F2195329FF0064F9B5 /* focus-crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus-crosshair.png"; sourceTree = "<group>"; };
+		171395F3195329FF0064F9B5 /* focus-crosshair@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus-crosshair@2x.png"; sourceTree = "<group>"; };
+		171395F4195329FF0064F9B5 /* front-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front-camera.png"; sourceTree = "<group>"; };
+		171395F5195329FF0064F9B5 /* front-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front-camera@2x.png"; sourceTree = "<group>"; };
+		171395F6195329FF0064F9B5 /* grid-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid-icon.png"; sourceTree = "<group>"; };
+		171395F7195329FF0064F9B5 /* grid-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid-icon@2x.png"; sourceTree = "<group>"; };
+		171395F8195329FF0064F9B5 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		171395F9195329FF0064F9B5 /* grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid@2x.png"; sourceTree = "<group>"; };
+		171395FA195329FF0064F9B5 /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		171395FB195329FF0064F9B5 /* library@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "library@2x.png"; sourceTree = "<group>"; };
+		171395FC195329FF0064F9B5 /* micro_carbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micro_carbon.png; sourceTree = "<group>"; };
+		171395FD195329FF0064F9B5 /* micro_carbon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "micro_carbon@2x.png"; sourceTree = "<group>"; };
+		171395FE195329FF0064F9B5 /* take-snap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take-snap.png"; sourceTree = "<group>"; };
+		171395FF195329FF0064F9B5 /* take-snap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take-snap@2x.png"; sourceTree = "<group>"; };
+		17139600195329FF0064F9B5 /* YCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCameraViewController.h; sourceTree = "<group>"; };
+		17139601195329FF0064F9B5 /* YCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCameraViewController.m; sourceTree = "<group>"; };
+		17139602195329FF0064F9B5 /* YCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCameraViewController.xib; sourceTree = "<group>"; };
 		8B33A3AE18E2D3CE0006B13B /* YCameraViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCameraViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B33A3B218E2D3CE0006B13B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B33A3B418E2D3CE0006B13B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,29 +85,6 @@
 		8B33A3CA18E2D3CE0006B13B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8B33A3CB18E2D3CE0006B13B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8B33A3CE18E2D3CE0006B13B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		8B33A3D818E2D5550006B13B /* YCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCameraViewController.h; sourceTree = "<group>"; };
-		8B33A3D918E2D5550006B13B /* YCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCameraViewController.m; sourceTree = "<group>"; };
-		8B33A3DA18E2D5550006B13B /* YCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCameraViewController.xib; sourceTree = "<group>"; };
-		8B33A3DC18E2D5550006B13B /* flash-auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-auto.png"; sourceTree = "<group>"; };
-		8B33A3DD18E2D5550006B13B /* flash-auto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-auto@2x.png"; sourceTree = "<group>"; };
-		8B33A3DE18E2D5550006B13B /* flash-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-off.png"; sourceTree = "<group>"; };
-		8B33A3DF18E2D5550006B13B /* flash-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-off@2x.png"; sourceTree = "<group>"; };
-		8B33A3E018E2D5550006B13B /* flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash.png; sourceTree = "<group>"; };
-		8B33A3E118E2D5550006B13B /* flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash@2x.png"; sourceTree = "<group>"; };
-		8B33A3E218E2D5550006B13B /* focus-crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus-crosshair.png"; sourceTree = "<group>"; };
-		8B33A3E318E2D5550006B13B /* focus-crosshair@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus-crosshair@2x.png"; sourceTree = "<group>"; };
-		8B33A3E418E2D5550006B13B /* front-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front-camera.png"; sourceTree = "<group>"; };
-		8B33A3E518E2D5550006B13B /* front-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front-camera@2x.png"; sourceTree = "<group>"; };
-		8B33A3E618E2D5550006B13B /* grid-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid-icon.png"; sourceTree = "<group>"; };
-		8B33A3E718E2D5550006B13B /* grid-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid-icon@2x.png"; sourceTree = "<group>"; };
-		8B33A3E818E2D5550006B13B /* grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid@2x.png"; sourceTree = "<group>"; };
-		8B33A3E918E2D5550006B13B /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
-		8B33A3EA18E2D5550006B13B /* library@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "library@2x.png"; sourceTree = "<group>"; };
-		8B33A3EB18E2D5550006B13B /* micro_carbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micro_carbon.png; sourceTree = "<group>"; };
-		8B33A3EC18E2D5550006B13B /* micro_carbon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "micro_carbon@2x.png"; sourceTree = "<group>"; };
-		8B33A3ED18E2D5550006B13B /* take-snap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take-snap.png"; sourceTree = "<group>"; };
-		8B33A3EE18E2D5550006B13B /* take-snap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take-snap@2x.png"; sourceTree = "<group>"; };
-		8B33A40518E2D7E50006B13B /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
 		8B480F68192614B0005AA93A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		8B480F6A192614B9005AA93A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		8B541C1B18E2DD930074AC55 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -107,6 +107,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171395EA195329FF0064F9B5 /* YCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				171395EB195329FF0064F9B5 /* UI */,
+				17139600195329FF0064F9B5 /* YCameraViewController.h */,
+				17139601195329FF0064F9B5 /* YCameraViewController.m */,
+				17139602195329FF0064F9B5 /* YCameraViewController.xib */,
+			);
+			name = YCameraViewController;
+			path = ../../YCameraViewController;
+			sourceTree = "<group>";
+		};
+		171395EB195329FF0064F9B5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				171395EC195329FF0064F9B5 /* flash-auto.png */,
+				171395ED195329FF0064F9B5 /* flash-auto@2x.png */,
+				171395EE195329FF0064F9B5 /* flash-off.png */,
+				171395EF195329FF0064F9B5 /* flash-off@2x.png */,
+				171395F0195329FF0064F9B5 /* flash.png */,
+				171395F1195329FF0064F9B5 /* flash@2x.png */,
+				171395F2195329FF0064F9B5 /* focus-crosshair.png */,
+				171395F3195329FF0064F9B5 /* focus-crosshair@2x.png */,
+				171395F4195329FF0064F9B5 /* front-camera.png */,
+				171395F5195329FF0064F9B5 /* front-camera@2x.png */,
+				171395F6195329FF0064F9B5 /* grid-icon.png */,
+				171395F7195329FF0064F9B5 /* grid-icon@2x.png */,
+				171395F8195329FF0064F9B5 /* grid.png */,
+				171395F9195329FF0064F9B5 /* grid@2x.png */,
+				171395FA195329FF0064F9B5 /* library.png */,
+				171395FB195329FF0064F9B5 /* library@2x.png */,
+				171395FC195329FF0064F9B5 /* micro_carbon.png */,
+				171395FD195329FF0064F9B5 /* micro_carbon@2x.png */,
+				171395FE195329FF0064F9B5 /* take-snap.png */,
+				171395FF195329FF0064F9B5 /* take-snap@2x.png */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		8B33A3A318E2D3CE0006B13B = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +179,7 @@
 		8B33A3B818E2D3CE0006B13B /* YImagePickerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8B33A3D518E2D5550006B13B /* YCameraViewController */,
+				171395EA195329FF0064F9B5 /* YCameraViewController */,
 				8B33A3C118E2D3CE0006B13B /* AppDelegate.h */,
 				8B33A3C218E2D3CE0006B13B /* AppDelegate.m */,
 				8B33A3CA18E2D3CE0006B13B /* ViewController.h */,
@@ -163,44 +202,6 @@
 				8B33A3C818E2D3CE0006B13B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8B33A3D518E2D5550006B13B /* YCameraViewController */ = {
-			isa = PBXGroup;
-			children = (
-				8B33A3D818E2D5550006B13B /* YCameraViewController.h */,
-				8B33A3D918E2D5550006B13B /* YCameraViewController.m */,
-				8B33A3DA18E2D5550006B13B /* YCameraViewController.xib */,
-				8B33A3DB18E2D5550006B13B /* UI */,
-			);
-			path = YCameraViewController;
-			sourceTree = "<group>";
-		};
-		8B33A3DB18E2D5550006B13B /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				8B33A40518E2D7E50006B13B /* grid.png */,
-				8B33A3DC18E2D5550006B13B /* flash-auto.png */,
-				8B33A3DD18E2D5550006B13B /* flash-auto@2x.png */,
-				8B33A3DE18E2D5550006B13B /* flash-off.png */,
-				8B33A3DF18E2D5550006B13B /* flash-off@2x.png */,
-				8B33A3E018E2D5550006B13B /* flash.png */,
-				8B33A3E118E2D5550006B13B /* flash@2x.png */,
-				8B33A3E218E2D5550006B13B /* focus-crosshair.png */,
-				8B33A3E318E2D5550006B13B /* focus-crosshair@2x.png */,
-				8B33A3E418E2D5550006B13B /* front-camera.png */,
-				8B33A3E518E2D5550006B13B /* front-camera@2x.png */,
-				8B33A3E618E2D5550006B13B /* grid-icon.png */,
-				8B33A3E718E2D5550006B13B /* grid-icon@2x.png */,
-				8B33A3E818E2D5550006B13B /* grid@2x.png */,
-				8B33A3E918E2D5550006B13B /* library.png */,
-				8B33A3EA18E2D5550006B13B /* library@2x.png */,
-				8B33A3EB18E2D5550006B13B /* micro_carbon.png */,
-				8B33A3EC18E2D5550006B13B /* micro_carbon@2x.png */,
-				8B33A3ED18E2D5550006B13B /* take-snap.png */,
-				8B33A3EE18E2D5550006B13B /* take-snap@2x.png */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,32 +255,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1713960C195329FF0064F9B5 /* front-camera@2x.png in Resources */,
+				1713960A195329FF0064F9B5 /* focus-crosshair@2x.png in Resources */,
+				17139604195329FF0064F9B5 /* flash-auto@2x.png in Resources */,
 				8B33A3BD18E2D3CE0006B13B /* InfoPlist.strings in Resources */,
+				17139603195329FF0064F9B5 /* flash-auto.png in Resources */,
 				8B33A3C518E2D3CE0006B13B /* Default.png in Resources */,
 				8B33A3C718E2D3CE0006B13B /* Default@2x.png in Resources */,
+				17139609195329FF0064F9B5 /* focus-crosshair.png in Resources */,
 				8B33A3C918E2D3CE0006B13B /* Default-568h@2x.png in Resources */,
+				1713960B195329FF0064F9B5 /* front-camera.png in Resources */,
+				17139605195329FF0064F9B5 /* flash-off.png in Resources */,
+				1713960F195329FF0064F9B5 /* grid.png in Resources */,
+				17139615195329FF0064F9B5 /* take-snap.png in Resources */,
+				17139608195329FF0064F9B5 /* flash@2x.png in Resources */,
+				1713960D195329FF0064F9B5 /* grid-icon.png in Resources */,
 				8B33A3CF18E2D3CE0006B13B /* ViewController.xib in Resources */,
-				8B33A3F118E2D5550006B13B /* YCameraViewController.xib in Resources */,
-				8B33A3F218E2D5550006B13B /* flash-auto.png in Resources */,
-				8B33A3F318E2D5550006B13B /* flash-auto@2x.png in Resources */,
-				8B33A3F418E2D5550006B13B /* flash-off.png in Resources */,
-				8B33A3F518E2D5550006B13B /* flash-off@2x.png in Resources */,
-				8B33A3F618E2D5550006B13B /* flash.png in Resources */,
-				8B33A3F718E2D5550006B13B /* flash@2x.png in Resources */,
-				8B33A3F818E2D5550006B13B /* focus-crosshair.png in Resources */,
-				8B33A3F918E2D5550006B13B /* focus-crosshair@2x.png in Resources */,
-				8B33A3FA18E2D5550006B13B /* front-camera.png in Resources */,
-				8B33A3FB18E2D5550006B13B /* front-camera@2x.png in Resources */,
-				8B33A3FC18E2D5550006B13B /* grid-icon.png in Resources */,
-				8B33A3FD18E2D5550006B13B /* grid-icon@2x.png in Resources */,
-				8B33A3FE18E2D5550006B13B /* grid@2x.png in Resources */,
-				8B33A3FF18E2D5550006B13B /* library.png in Resources */,
-				8B33A40018E2D5550006B13B /* library@2x.png in Resources */,
-				8B33A40118E2D5550006B13B /* micro_carbon.png in Resources */,
-				8B33A40218E2D5550006B13B /* micro_carbon@2x.png in Resources */,
-				8B33A40318E2D5550006B13B /* take-snap.png in Resources */,
-				8B33A40418E2D5550006B13B /* take-snap@2x.png in Resources */,
-				8B33A40618E2D7E50006B13B /* grid.png in Resources */,
+				17139611195329FF0064F9B5 /* library.png in Resources */,
+				1713960E195329FF0064F9B5 /* grid-icon@2x.png in Resources */,
+				17139613195329FF0064F9B5 /* micro_carbon.png in Resources */,
+				17139607195329FF0064F9B5 /* flash.png in Resources */,
+				17139610195329FF0064F9B5 /* grid@2x.png in Resources */,
+				17139616195329FF0064F9B5 /* take-snap@2x.png in Resources */,
+				17139614195329FF0064F9B5 /* micro_carbon@2x.png in Resources */,
+				17139606195329FF0064F9B5 /* flash-off@2x.png in Resources */,
+				17139612195329FF0064F9B5 /* library@2x.png in Resources */,
+				17139618195329FF0064F9B5 /* YCameraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +294,7 @@
 				8B33A3BF18E2D3CE0006B13B /* main.m in Sources */,
 				8B33A3C318E2D3CE0006B13B /* AppDelegate.m in Sources */,
 				8B33A3CC18E2D3CE0006B13B /* ViewController.m in Sources */,
-				8B33A3F018E2D5550006B13B /* YCameraViewController.m in Sources */,
+				17139617195329FF0064F9B5 /* YCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
