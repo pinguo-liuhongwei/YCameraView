@@ -50,6 +50,9 @@
     UIImage *croppedImageWithoutOrientation;
 }
 @property (nonatomic, readwrite) BOOL dontAllowResetRestaurant;
+
+// indecate if need user manually confirm after photo has been token, default value is NO
+@property (nonatomic, readwrite) BOOL needConfirmSnappedPhoto;
 @property (nonatomic, assign) id delegate;
 
 #pragma mark -
