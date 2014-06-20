@@ -25,6 +25,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.needConfirmSnappedPhoto=NO;
     }
     return self;
 }
@@ -397,9 +398,17 @@
                                      orientation:UIImageOrientationUpMirrored];
     }
     
-    [self.captureImage setImage:croppedImage];
     
-    [self setCapturedImage];
+    if(self.needConfirmSnappedPhoto){
+        [self.captureImage setImage:croppedImage];
+        [self setCapturedImage];
+    }else{
+        if ([delegate respondsToSelector:@selector(didFinishPickingImage:)]) {
+            [delegate didFinishPickingImage:self.captureImage.image];
+        }
+        // Dismiss self view controller
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 
 - (void)setCapturedImage{
