@@ -404,7 +404,7 @@
         [self setCapturedImage];
     }else{
         if ([delegate respondsToSelector:@selector(didFinishPickingImage:)]) {
-            [delegate didFinishPickingImage:self.captureImage.image];
+            [delegate didFinishPickingImage:croppedImage];
         }
         // Dismiss self view controller
         [self dismissViewControllerAnimated:YES completion:nil];
