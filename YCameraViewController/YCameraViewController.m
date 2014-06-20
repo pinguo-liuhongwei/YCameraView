@@ -356,7 +356,7 @@
     //    assetOrientation = ALAssetOrientationUp;
     
     // adjust image orientation
-    NSLog(@"orientation: %d",orientationLast);
+    NSLog(@"orientation: %ld",orientationLast);
     orientationAfterProcess = orientationLast;
     switch (orientationLast) {
         case UIInterfaceOrientationPortrait:
@@ -399,8 +399,9 @@
     }
     
     
+    [self.captureImage setImage:croppedImage];
+    
     if(self.needConfirmSnappedPhoto){
-        [self.captureImage setImage:croppedImage];
         [self setCapturedImage];
     }else{
         if ([delegate respondsToSelector:@selector(didFinishPickingImage:)]) {
